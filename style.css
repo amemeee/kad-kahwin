@@ -1,0 +1,59 @@
+:root{
+    --pink:#f14e95;
+    --bg:black;
+    --shadow: 0 2-x 2-x rg(0,0,0 / 0.5);
+}
+
+body{
+    font-size: 1.2rem;
+    font-family: 'Work San',San-serif;
+    min-height: 200vh;
+}
+
+.hero {
+    min-height: 100vh;
+    background-color: var(--bg);
+    color: #ffffff;
+}
+
+
+.content{
+    min-height: 100vh;
+    background-color: var(--bg);
+    color: #ffffff;
+}
+
+
+.hero h4 {
+ 
+    font-size: 1.6rem;
+}
+
+.hero h1 {
+    font-family: 'Sacramento',Cursive;
+    font-size: 6rem;
+}
+
+.hero a:hover {
+
+
+    color: white;
+    background-color:var(--pink);
+}
+
+.hero a {
+    color: var(--pink);
+    background-color: white;
+    font-family: 'Work San',San-serif;
+}
+
+.hero-2 {
+    min-height: 100vh;
+    background-color: white;
+    color: black;
+}
+
+.sacra {
+    font-family: 'Sacramento',Cursive;
+    font-size: 1.6rem;
+}
