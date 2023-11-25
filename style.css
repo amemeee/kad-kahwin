@@ -1,5 +1,5 @@
 :root{
-    --pink:#f14e95;
+    --pink:pink;
     --bg:black;
     --shadow: 0 2-x 2-x rg(0,0,0 / 0.5);
 }
@@ -8,19 +8,22 @@ body{
     font-size: 1.2rem;
     font-family: 'Work San',San-serif;
     min-height: 200vh;
+    background-color: gray;
 }
 
 .hero {
     min-height: 100vh;
+    max-width: 50vh;
     background-color: var(--bg);
-    color: #ffffff;
+    /* color: #ffffff; */
+    border-radius: 50px;
 }
 
 
 .content{
     min-height: 100vh;
     background-color: var(--bg);
-    color: #ffffff;
+    /* color: #ffffff; */
 }
 
 
@@ -49,11 +52,44 @@ body{
 
 .hero-2 {
     min-height: 100vh;
+    max-width: 50vh;
     background-color: white;
     color: black;
+    border-radius: 50px;
+}
+
+.hero-2 h4 {
+ 
+    font-size: 1.6rem;
 }
 
 .sacra {
-    font-family: 'Sacramento',Cursive;
+    font-family: 'Sacramento','Sacramento',Cursive;
     font-size: 1.6rem;
 }
+
+.audio-controls {
+    position: fixed;
+    bottom: 20px;
+    right: 50px;
+    left: 50px;
+    z-index: 999;
+  }
+  
+  .button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+
+  .familyBride {
+    color:#f14e95;
+  }
